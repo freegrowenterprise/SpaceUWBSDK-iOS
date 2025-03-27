@@ -11,9 +11,12 @@ public class GrowSpaceUWBSDK {
         self.spaceUwb = SpaceUWB()
     }
     
-    func connect() {
+    public func connect() {
         self.spaceUwb?.spaceUWBHandler = {
             print("UWB 연결 결과 : \($0)")
         }
+    }
+    
+    public func disconnect() {
     }
 }
