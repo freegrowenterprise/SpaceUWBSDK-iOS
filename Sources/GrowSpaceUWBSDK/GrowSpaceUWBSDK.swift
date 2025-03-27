@@ -3,6 +3,7 @@
 
 import GrowSpaceUWBPrivateSDK
 
+@available(iOS 16.0, *)
 public class GrowSpaceUWBSDK {
     private let spaceUwb: SpaceUWB?
     
