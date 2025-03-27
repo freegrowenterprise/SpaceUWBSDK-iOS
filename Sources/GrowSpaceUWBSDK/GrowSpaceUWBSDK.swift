@@ -4,14 +4,14 @@
 import GrowSpaceUWBPrivateSDK
 
 public class GrowSpaceUWBSDK {
-    private var spaceUwb: SpaceUWB
+    private let spaceUwb: SpaceUWB?
     
-    init(spaceUwb: SpaceUWB) {
-        self.spaceUwb = spaceUwb
+    init() {
+        self.spaceUwb = SpaceUWB()
     }
     
     func connect() {
-        self.spaceUwb.spaceUWBHandler = {
+        self.spaceUwb?.spaceUWBHandler = {
             print("UWB 연결 결과 : \($0)")
         }
     }
