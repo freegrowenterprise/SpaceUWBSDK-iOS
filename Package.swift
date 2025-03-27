@@ -25,8 +25,8 @@ let package = Package(
         
         .binaryTarget(
             name: "GrowSpaceUWBPrivateSDK",
-            url: "https://github.com/freegrowenterprise/SpaceUWBSDK-iOS/releases/download/v0.0.6/GrowSpaceUWBPrivateSDK.xcframework.zip",
-            checksum: "c6d59c5cf2f1ddc59222f49929f4a346f3b97a1c3420d67ac81573da054b0386"
+            url: "https://github.com/freegrowenterprise/SpaceUWBSDK-iOS/releases/download/v0.0.7/GrowSpaceUWBPrivateSDK.xcframework.zip",
+            checksum: "7ccf84e362ed7a3f03c8e3bba7d969d4af0f0088cbb30eb7afc7c721aba99184"
         ),
         .testTarget(
             name: "GrowSpaceUWBSDKTests",
