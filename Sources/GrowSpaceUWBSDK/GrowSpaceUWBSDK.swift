@@ -6,7 +6,7 @@ import GrowSpaceUWBPrivateSDK
 public class GrowSpaceUWBSDK {
     private let spaceUwb: SpaceUWB?
     
-    init() {
+    public init() {
         self.spaceUwb = SpaceUWB()
     }
     
