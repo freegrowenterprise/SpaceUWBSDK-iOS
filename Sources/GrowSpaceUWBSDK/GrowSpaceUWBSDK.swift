@@ -12,6 +12,7 @@ public class GrowSpaceUWBSDK {
     }
     
     public func connect() {
+        print("start Connect")
         self.spaceUwb?.spaceUWBHandler = {
             print("UWB 연결 결과 : \($0)")
         }
