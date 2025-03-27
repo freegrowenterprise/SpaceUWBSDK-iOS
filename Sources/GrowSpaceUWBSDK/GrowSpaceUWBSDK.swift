@@ -20,6 +20,10 @@ public class GrowSpaceUWBSDK {
     }
     
     public func disconnect() {
-        self.spaceUwb?.stop()
+        do {
+            try self.spaceUwb?.stop()
+        } catch {
+            print("Stop 실패")
+        }
     }
 }
